@@ -1,4 +1,7 @@
-#/bin/bash                                                                                                                                                                                                                                                   
+#/bin/bash
+rm -r -f /hive/custom/ZEnemy
+mkdir /hive/custom/ZEnemy
+tar -xzvf z-enemy-1.15a-cuda91.tar.gz /hive/custom/ZEnemy/ 
 cp /hive/ccminer223-cuda90/cuda-9.0/libcudart.so.9.1  /hive/custom/ZEnemy
 export LD_LIBRARY_PATH=/hive/custom/ZEnemy:$LD_LIBRARY_PATH. 
 export PATH=/hive/custom/ZEnemy:$PATH 
