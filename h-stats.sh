@@ -183,7 +183,7 @@ echo "Stats:" $stats
 
 # debug output
 <<NODEBUG
-echo temp:   ${temp[@]}
+echo Temp:   ${temp[@]}
 echo fan:    $fan
 echo stats:  $stats
 echo khs:    $khs
